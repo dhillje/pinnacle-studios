@@ -1,0 +1,63 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+body {
+  font-family: serif;
+}
+
+.hero {
+  background: #294d56;
+}
+
+.navbar {
+  background: white;
+}
+
+.art {
+  height: 16em;
+  width: 100%;
+}
+
+.co-logo {
+  height: 10rem;
+  width: auto;
+}
+
+.logo {
+  width: auto;
+  height: 12em;
+}
+
+.formtitle {
+  color: #294d56;
+}
+
+.formbox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+a {
+  color: #294d56 !important;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
